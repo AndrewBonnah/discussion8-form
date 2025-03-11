@@ -3,7 +3,7 @@
   
   form {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns:  100%;
     border: 1px solid #ccc;
     border-radius: 16px;
     width:70%;
@@ -11,12 +11,12 @@
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #702082;
-    background: #CFC096;
+    background: #81f9a5;
   }
 
   .radio {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 1;
     /* background: #575294; */
     color: #702082;
   }
@@ -26,7 +26,7 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
+    background: #ffffff;
     color: #9B9A6D;
   }
 
@@ -38,7 +38,7 @@
 
   input,
   textarea {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
     width: 100%;
   }
@@ -46,13 +46,13 @@
   input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #00ff08;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
 
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #001aff;
   }
